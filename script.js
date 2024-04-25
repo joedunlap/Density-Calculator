@@ -22,7 +22,15 @@ function calculateDensity() {
         console.error('Unable to copy density to clipboard:', err);
         // Handle any errors, such as browser compatibility or permission issues
       });
-  }
+  };
+
+  function clearInputs() {
+    document.getElementById('rep1').value = '';
+    document.getElementById('rep2').value = '';
+    document.getElementById('rep3').value = '';
+    document.getElementById('result').innerText = '';
+};
+
 
 
   

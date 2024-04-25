@@ -29,7 +29,7 @@ button:hover {
     background-color: #05731d;
 }
 
-.button {
+button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
