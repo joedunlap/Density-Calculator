@@ -1,3 +1,7 @@
+body {
+    background-color: #e5e5df
+}
+
 .container {
     max-width: 400;
     margin: 50px auto;
@@ -22,7 +26,7 @@ input {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #05731d;
 }
 
 #result {
@@ -41,3 +45,38 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+/* styles.css */
+
+/* Select the labels by their 'for' attribute */
+label[for="rep1"],
+label[for="rep2"],
+label[for="rep3"] {
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+/* styles.css */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    font-family: 'Roboto Condensed', sans-serif; 
+    text-align:center
+  }
+  
+  /* styles.css */
+#company-logo {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+  }
+
+  /* styles.css */
+#company-logo {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
